@@ -6,7 +6,7 @@ on :
             - main
 jobs :
     learning :
-        runs-on : ububtu-latest
+        runs-on : ubuntu-latest
         steps : 
             - name : learning
               run : echo "hello how are you"
