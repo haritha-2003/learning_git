@@ -3,7 +3,7 @@ name : exercise3
 on : 
     push :
         branches :
-            - main
+            - dev
 jobs : 
     exercise3 :
         runs-on : ubuntu-latest
