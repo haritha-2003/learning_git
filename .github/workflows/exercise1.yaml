@@ -1,5 +1,5 @@
 ---
-name : learning
+name : exercise1
 on :
     push :
         branches :
