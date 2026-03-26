@@ -1,0 +1,14 @@
+---
+name : exercise2
+on : 
+    push :
+        branches :
+            - main
+jobs :
+    learning :
+        runs-on : ubuntu-latest
+        steps :
+            - name : learning
+              run : echo "hello how are you"
+            - name : list env
+              run : printenv
